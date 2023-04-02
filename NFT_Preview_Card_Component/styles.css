@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: #0D192C;
+}
+
+.container{
+    background-color: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    Width: 327px;
+    Height: 543px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+
+.content{
+    padding: 24px 25px 24px 24px;
+}
+
+.equilibrium-img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.equilibrium-img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.main-heading{
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.content > p {
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0px, -20px);
+}
+
+.left h5{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #00FFF8;
+    padding-left: 4px;
+}
+
+.right h5{
+    color: #8BACD9;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    padding-left: 4px;
+}
+
+.left, .right{
+    display: flex;
+    align-items: center;
+}
+
+.rectangle{
+    width: 278px;
+    height: 1px;
+    background-color: #2E405A;
+    margin-top: -20px;
+}
+
+
+/* Last block style */
+.last-block{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.last-block img{
+    width: 33px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+}
+
+.last-block h5{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #8BACD9;
+}
+
+.last-block .full-name{
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+.full-name:hover, .main-heading:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+.img-content:hover{
+    background: #00FFF8;
+    mix-blend-mode: normal;
+    border-radius: 8px;
+}
